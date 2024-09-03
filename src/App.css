@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 15vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +23,23 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-Body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-direction: row; /* Si prefieres usar flexbox, asegúrate de no usar column aquí */
+  flex-wrap: wrap; /* Para permitir que los elementos envuelvan */
+}
+.card {
+  margin: 15px;
+}
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
