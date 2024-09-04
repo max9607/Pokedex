@@ -35,11 +35,62 @@
   flex-wrap: wrap; /* Para permitir que los elementos envuelvan */
 }
 .card {
+  background-color: aqua;
   margin: 15px;
+}
+.cardTittle {
+  background-color: aqua;
+  margin: 15px;
+}
+.card-title-custom {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-text-custom {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .App-link {
   color: #61dafb;
 }
+
+.custom-modal {
+  background-color: #f8f9fa; /* Color de fondo */
+  border-radius: 10px; /* Esquinas redondeadas */
+  padding: 20px; /* Espaciado interno */
+  color: #343a40; /* Color del texto */
+}
+
+.custom-modal-header {
+  background-color: #007bff; /* Fondo del encabezado */
+  color: white; /* Color del texto del encabezado */
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: -webkit-center;
+}
+
+.custom-modal-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.custom-modal-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Puedes usar 'space-between' o 'space-around' */
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
